@@ -4,7 +4,7 @@
 
 C# wrapper for the Desktop Duplication Api.
 
-[Nuget](https://docs.microsoft.com/en-gb/windows/win32/direct3ddxgi/desktop-dup-api)
+[Nuget](https://www.nuget.org/packages/DesktopDuplicationWapper/)
 
 ### Features
 
