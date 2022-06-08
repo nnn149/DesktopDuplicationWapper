@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0-windows8.0; net6.0-windows8.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>Nannan</Authors>
+    <Company>Nannan</Company>
+    <Description>C# wrapper for the Desktop Duplication Api
+</Description>
+    <PackageProjectUrl>https://github.com/nnn149/DesktopDuplicationWapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nnn149/DesktopDuplicationWapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>DesktopDuplication;screenshot;capture</PackageTags>
+    <PackageReleaseNotes>C# wrapper for the Desktop Duplication Api</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows8.0|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows8.0|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="Vortice.Direct3D11" Version="2.1.19" />
+  </ItemGroup>
+
+</Project>
