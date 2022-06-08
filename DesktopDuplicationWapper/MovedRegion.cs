@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesktopDuplicator
+namespace DesktopDuplicationWapper
 {
     /// <summary>
     /// Describes the movement of an image rectangle within a desktop frame.

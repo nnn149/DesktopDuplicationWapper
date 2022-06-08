@@ -9,7 +9,7 @@ using Vortice.Direct3D;
 using Vortice.Direct3D11;
 using Vortice.DXGI;
 
-namespace DesktopDuplicator
+namespace DesktopDuplicationWapper
 {
     /// <summary>
     /// You must call Dispose() in the end

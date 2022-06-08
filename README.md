@@ -18,7 +18,7 @@ C# wrapper for the Desktop Duplication Api.
 
 ```c#
 DesktopDuplicator desktopDuplicator = new DesktopDuplicator(0, 0);
-DesktopFrame? frame = desktopDuplicator.GetLatestFrame(x, y, Width, Height);
+DesktopFrame frame = desktopDuplicator.GetLatestFrame(x, y, Width, Height);
 if (frame != null)
 {
 	frame.DesktopImage.Save("1.png");

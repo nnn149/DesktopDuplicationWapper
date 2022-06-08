@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesktopDuplicator
+namespace DesktopDuplicationWapper
 {
     /// <summary>
     /// Provides image data, cursor data, and image metadata about the retrieved desktop frame.
